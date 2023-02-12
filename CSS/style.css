@@ -1,0 +1,539 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  color: rgb(116, 116, 116);
+}
+
+/* ヘッダー */
+.header {
+  display: flex;
+  width: 100vw;
+  margin: 0.5vw 0 0 2vw;
+  padding: 1vw 0;
+  vertical-align: bottom;
+  }
+
+.header-tetle {
+  margin-left: 60px;
+}
+
+.header-img {
+  width: 10vw;
+
+}
+
+/* ナビ */
+.header-nav {
+  font-size: 1vw;
+  margin-left: auto;
+  margin-right: 6vw;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-item {
+  margin-left: 30px;
+}
+
+/* メイン */
+/* .main{
+  margin-top: 30px 0;
+} */
+
+/* トップ */
+/* .top {
+  position: relative;
+} */
+
+.top-title {
+  position: absolute;
+  font-size: 4vw;
+  margin: 5% 0 0 3%;
+  left: 15%;
+  line-height: 210%;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: rgb(155, 39, 106);
+}
+
+.top-color {
+  color: rgb(45, 186, 196);
+}
+
+.top-img {
+  margin-left: 39.7vw;
+  width: 60%;
+  z-index: -10;
+}
+
+.top-content {
+  position: absolute;
+  margin: 25% 0 0 3%;
+  left: 15%;
+  color: rgb(155, 39, 106);
+  font-weight: bold;
+  font-size: 1.4vw;
+}
+
+.top-content-sub {
+  position: absolute;
+  font-size: 1vw;
+  margin: 27% 0 0 3%;
+  left: 15%;
+  line-height: 150%;
+}
+
+.info {
+  position: relative;
+}
+
+/* 新着情報 */
+.info {
+  margin-top: 60px;
+}
+
+/* .info-home {} */
+
+.info-logo {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-left: 20vw;
+  font-size: 1.5vw;
+  line-height: 250%;
+  color: rgb(155, 39, 106);
+}
+
+.info-tetle {
+  margin-left: 20vw;
+  font-size: 2vw;
+}
+
+.info-tetle::before {
+  content: News;
+  color: rgb(99, 1, 33);
+  font-size: 1vw;
+  display: block;
+}
+
+.info-content {
+  margin-top: 4vw;
+  margin-left: 20vw;
+  padding-bottom: 2vw;
+  border-bottom: solid 3px;
+  border-top: solid 3px;
+  border-color: rgb(116, 116, 116);
+  width: 60vw;
+}
+
+.info-content dt {
+  float: left;
+  margin-right: 3vw;
+}
+
+.info-content-time,
+.info-content-text {
+  font-size: 1.3vw;
+  line-height: 4vw;
+  border-bottom: solid 1px;
+  border-color: rgb(116, 116, 116);
+}
+
+.info-content-news {
+  width: auto;
+  color: rgb(255, 255, 255);
+  font-size: 1.3vw;
+  text-align: center;
+  background-color: rgb(194, 2, 66);
+  margin-left: 2vw;
+  padding: 0 1vw;
+  border-radius: 2vw;
+}
+
+/* .info-content-time {} */
+
+/* テクノロジー&コーチング */
+.content {
+  margin-top: 60px;
+  background-color: rgb(233, 233, 233);
+  padding: 20px 0 40px 0;
+}
+
+.content-home {
+  text-align: center;
+}
+
+.info-logo-news {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  font-size: 1.5vw;
+  line-height: 250%;
+  color: rgb(155, 39, 106);
+}
+
+.content-tetle {
+  font-size: 2.2vw;
+  margin-bottom: 30px;
+}
+
+/* .content-logo {
+  letter-spacing:1em;
+} */
+
+.content-text {
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 30%;
+  font-size: 1.2vw;
+}
+
+.content-text-first {
+  text-align: left;
+  line-height: 180%;
+}
+
+.content-img {
+  width: 30%;
+}
+
+/* サービス内容 */
+.service {
+  margin-top: 60px;
+}
+
+.service-home {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-left: 20vw;
+  font-size: 2vw;
+}
+
+.info-logo-service {
+  font-size: 1.5vw;
+  line-height: 250%;
+  color: rgb(155, 39, 106);
+}
+
+.service-tetle {
+  margin-bottom: 30px;
+}
+
+.service-grid {
+  display: flex;
+}
+
+.service-grid-first {
+  background-color: rgb(172, 0, 80);
+  width: 29.8vw;
+  height: 26vw;
+}
+
+/* .service-grid-second {} */
+
+.service-grid-third {
+  background-color: rgb(173, 67, 156);
+  width: 29.8vw;
+  height: 13vw;
+  display: flex;
+}
+
+.service-grid-forth {
+  background-color: rgb(172, 112, 164);
+  width: 29.8vw;
+  height: 13vw;
+  z-index: 10;
+  display: flex;
+}
+
+.service-img {
+  width: 35%;
+  display: block;
+  margin: 10px auto;
+}
+
+.service-img-flex {
+  width: 22%;
+  padding: 0 5px;
+}
+
+.service-text-frist {
+  color: rgb(249, 252, 255);
+  text-align: center;
+  margin: 20px 0 15px 0;
+  font-size: 1.5vw;
+}
+
+.service-text {
+  color: rgb(249, 252, 255);
+  margin: 40px 0 20px 5px;
+  font-size: 1.5vw;
+}
+
+.service-content-frist {
+  color: rgb(249, 252, 255);
+  margin: 0 25px;
+  font-size: 1.1vw;
+  line-height: 180%;
+}
+
+.service-content {
+  color: rgb(249, 252, 255);
+  margin: 0 15px 0 5px;
+  font-size: 1vw;
+  line-height: 180%;
+}
+
+/* ブログ */
+.blog {
+  margin-top: 60px;
+  padding: 20px 0 40px 0;
+  width: 100vw;
+  background-color: rgb(233, 233, 233);
+}
+
+.blog-home {
+  margin-left: 20vw;
+  font-size: 2vw;
+}
+
+.blog-flex {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 2vw;
+  margin-top: 20px;
+}
+
+.blog-logo {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.5vw;
+  line-height: 250%;
+  color: rgb(155, 39, 106);
+}
+
+/* .blog-tetle {} */
+
+.blog-cord {
+  width: 18.5vw;
+  height: 22.5vw;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+  background-color: #ffffff;
+}
+
+.blog-area {
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(155, 39, 106);
+  color: aliceblue;
+  font-size: 1.3vw;
+  padding: 10px 18px;
+  border-radius: 10px 0 0 0;
+}
+
+.blog-img {
+  width: 100%;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 15px;
+}
+
+/* .blog-cord  + blog-content{
+  text-align: center;
+  display: block;
+} */
+
+.blog-content {
+  font-size: 1vw;
+}
+
+.blog-text {
+  margin-left: 1.5vw;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.blog-time {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+
+/* .blog-time-text {}
+
+.blog-remarks {} */
+
+.blog-btn {
+  display: block;
+  text-align: center;
+  margin: 30px 0 20px 22.5vw;
+  width: 15vw;
+  padding: 1.2vw 0;
+  border-radius: 10vw;
+  border: solid 0.1vw rgb(155, 39, 106);
+  color: rgb(155, 39, 106);
+  background-color: rgb(255, 255, 255);
+  font-size: 1.3vw;
+}
+
+/* 会社概要 */
+.overview {
+  margin-top: 60px;
+}
+
+.overview-home {
+  margin-left: 25vw;
+  font-size: 2vw;
+}
+
+.overview-logo {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.5vw;
+  line-height: 250%;
+  color: rgb(155, 39, 106);
+}
+
+.overview-text-tetle {
+  margin-top: 30px;
+}
+
+/* .overview-main{
+
+} */
+
+.overview-teble {
+  padding-right: 10px;
+}
+
+.overview-list {
+  line-height: 300%;
+  font-size: 1.5vw;
+}
+
+.overview-list th {
+  background-color: rgb(233, 233, 233);
+  padding: 0 9vw 0 2vw;
+  border: solid 0.1vw;
+  text-align: left;
+}
+
+.overview-list td {
+  padding: 0 18vw 0 2vw;
+  border: solid 0.1vw;
+}
+
+/* .overview-text{
+
+} */
+
+/* 採用情報 */
+.back {
+  margin-top: 60px;
+}
+
+.back-img {
+  display: flex;
+  justify-content: center;
+}
+
+.bacl-img-frist {
+  position: relative;
+
+}
+
+.back-img-link-frist {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.3vw;
+}
+
+.back-img-main {
+  width: 50vw;
+}
+
+.bacl-img-second {
+  position: relative;
+}
+
+.back-img-link-second {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.3vw;
+}
+
+/* お問い合わせ */
+.foam {
+  margin: 60px 0 60px 0;
+}
+
+/* 
+.foam-tag {} */
+
+.foam-tetle {
+  position: relative;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+/* .foam-tetle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 0.1vw;
+  height: 2vw;
+  margin: auto;
+  background-color: black;
+} */
+
+.foam-line {
+  text-align: center;
+  margin: 30px 0 30px 49.5vw;
+  border-left: 4px solid #9c085f;
+  padding: 1.2vw 0.1vw;
+}
+
+.foam-btn {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 20vw;
+  padding: 1.4vw 0;
+  border-radius: 10vw;
+  box-shadow: 0 0.5vw 0 #9c085f;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #eb6bc0, #9c085f);
+  font-size: 1.3vw;
+}
+
+.foam-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 2.5vw;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 1.8vw;
+  height: 1.8vw;
+  transform: translate(0, -50%);
+}
+
+/* フッター */
+.footer {
+  padding: 2.5vw 0;
+  background-color: rgb(233, 233, 233);
+}
+
+.footer-text {
+  display: block;
+  text-align: center;
+}
